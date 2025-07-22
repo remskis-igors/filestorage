@@ -1,0 +1,6 @@
+/home/R1Ga71/Documents/Github_projects/filestorage/src/main/java/com/s3portal/fileStorage/FileStorageApplication.java
+/home/R1Ga71/Documents/Github_projects/filestorage/src/main/java/com/s3portal/fileStorage/config/AwsConfig.java
+/home/R1Ga71/Documents/Github_projects/filestorage/src/main/java/com/s3portal/fileStorage/controller/FileController.java
+/home/R1Ga71/Documents/Github_projects/filestorage/src/main/java/com/s3portal/fileStorage/model/StoredFile.java
+/home/R1Ga71/Documents/Github_projects/filestorage/src/main/java/com/s3portal/fileStorage/repository/FileMetadataRepository.java
+/home/R1Ga71/Documents/Github_projects/filestorage/src/main/java/com/s3portal/fileStorage/service/FileStorageService.java

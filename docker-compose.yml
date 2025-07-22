@@ -1,0 +1,30 @@
+services:
+  frontend:
+    build:
+      context: ./frontend
+    container_name: s3portal-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_URL: http://localhost:8080/api
+    command: npm run dev -- --host
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+
+  db:
+    image: postgres:16
+    container_name: s3portal-db
+    environment:
+      POSTGRES_DB: s3db
+      POSTGRES_USER: s3user
+      POSTGRES_PASSWORD: s3pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+
+volumes:
+  dbdata:

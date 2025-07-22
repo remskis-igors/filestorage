@@ -1,0 +1,6 @@
+com/s3portal/fileStorage/service/FileStorageService.class
+com/s3portal/fileStorage/controller/FileController.class
+com/s3portal/fileStorage/repository/FileMetadataRepository.class
+com/s3portal/fileStorage/config/AwsConfig.class
+com/s3portal/fileStorage/FileStorageApplication.class
+com/s3portal/fileStorage/model/StoredFile.class
