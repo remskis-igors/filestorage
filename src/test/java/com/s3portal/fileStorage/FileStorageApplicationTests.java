@@ -1,4 +1,4 @@
-package com.s3portak.fileStorage;
+package com.s3portal.fileStorage;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

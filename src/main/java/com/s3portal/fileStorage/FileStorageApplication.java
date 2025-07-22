@@ -1,4 +1,4 @@
-package com.s3portak.fileStorage;
+package com.s3portal.fileStorage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
